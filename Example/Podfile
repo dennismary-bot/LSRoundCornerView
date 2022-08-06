@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'LSRoundCornerView_Example' do
+  pod 'LSRoundCornerView', :path => '../'
+
+  target 'LSRoundCornerView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
